@@ -11,43 +11,32 @@
 <body>
     <header class="site-header">
         <div class="container header-inner">
-            <a class="logo" href="#">Golf Club</a>
+            <a class="logo" href="#">
+                <img src="https://images.unsplash.com/photo-1508182315870-0ee8c5a8f0b0?q=80&w=64&auto=format&fit=crop&ixlib=rb-4.0.3&s=000000"
+                    alt="logo">
+            </a>
             <nav class="nav" id="nav">
                 <a href="#features">ฟีเจอร์</a>
                 <a href="#members">สมาชิก</a>
                 <a href="#contact">ติดต่อ</a>
             </nav>
-            <button id="menuBtn" class="menu-btn" aria-label="เมนู">☰</button>
+            <div class="right-actions">
+                <a class="join-btn" href="#">Join Us</a>
+                <button id="menuBtn" class="menu-btn" aria-label="เมนู">☰</button>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
             <div class="container hero-inner">
-                <h1>ยินดีต้อนรับสู่ Golf Club</h1>
-                <p>แพลตฟอร์มสำหรับจองสนาม ฝึกซ้อม และติดตามสถิติการเล่นของคุณ</p>
+                <h1>Great swings start with passion and precision</h1>
+                <p>Find skilled candidates, in‑demand jobs and the solutions you need to help you do your best work yet.
+                </p>
                 <div class="hero-cta">
-                    <a class="btn primary" href="#features">เริ่มเลย</a>
-                    <a class="btn" href="#contact">ติดต่อเรา</a>
+                    <a class="btn primary" href="#features">Book Now</a>
                 </div>
-            </div>
-        </section>
-
-        <section id="features" class="section container">
-            <h2>ฟีเจอร์เด่น</h2>
-            <div class="grid">
-                <article class="card">
-                    <h3>จองสนามออนไลน์</h3>
-                    <p>ระบบจองที่สะดวก รวดเร็ว รองรับการชำระเงิน</p>
-                </article>
-                <article class="card">
-                    <h3>บทวิเคราะห์สวิง</h3>
-                    <p>บันทึกและวิเคราะห์การตีเพื่อพัฒนาฝีมือ</p>
-                </article>
-                <article class="card">
-                    <h3>ทัวร์นาเมนต์</h3>
-                    <p>เข้าร่วมแข่งกับสมาชิกคนอื่นๆ และติดตามคะแนน</p>
-                </article>
             </div>
         </section>
 
@@ -70,6 +59,17 @@
         </div>
     </footer>
 
+    <div class="booking-card" role="region" aria-label="Booked Slots">
+        <div class="booking-inner container">
+            <div>
+                <strong>Booked Slots (9 & 18 Holes)</strong>
+                <div class="muted">Date: 2026-02-09</div>
+            </div>
+            <div class="booking-status">
+                <span class="warn">⚠️ ไม่สามารถโหลดข้อมูลได้ มีข้อผิดพลาดจากทาง Server</span>
+            </div>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 
